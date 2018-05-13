@@ -1,0 +1,17 @@
+@import "bootstrap";
+
+// Variables 
+$brand-primary: #ebb700;
+$brand-secondary: #3d3836;
+$brand-tertiary: #6a6c70;
+
+$brand-font-family: 'Titillium Web', sans-serif;
+$content-font-family: 'Roboto', sans-serif;
+
+
+// body class controls 
+
+body {
+	font-family: $content-font-family;
+	background-color: #dcdcdc;
+}
