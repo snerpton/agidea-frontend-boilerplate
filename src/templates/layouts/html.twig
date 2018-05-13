@@ -1,0 +1,20 @@
+<!doctype html>
+<!--[if lte IE 9 ]>    <html class="no-js ie9"  lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"  lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{% block title %}{% endblock %} - Agidea Frontend Boilerplate</title>
+        <meta name="description" content="{% block description %}{% endblock %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="styles/styles.min.css">
+    </head>
+    <body class="{% block bodyClass %}{% endblock %}">
+        {% include '../partials/_header.twig' %}
+        {% block body %}{% endblock %}
+        {% include '../partials/_footer.twig' %}
+        <script src="scripts/scripts.min.js"></script>
+    </body>
+</html>
