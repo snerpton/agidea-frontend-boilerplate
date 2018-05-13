@@ -131,7 +131,7 @@ Create `package.json` and add the following content:
     "gulp-twig": "^0.7.0",
     "gulp-uglify": "^2.1.2",
     "gulp-watch": "^4.3.11",
-    "bootstrap-sass": "^3.3.7",
+    "bootstrap": "^4.1.1",
     "jquery": "^3.2.1"
   },
   "scripts": {},
