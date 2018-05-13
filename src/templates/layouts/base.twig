@@ -1,5 +1,9 @@
 {% extends "html.twig" %}
+
 {% block body %}
+
+{% include '../partials/_header.twig' %}
+
 <div class="container">
   <div class="row">
      <div class="col-sm">
@@ -21,4 +25,7 @@
   </div>
 </div>
 
+{% include '../partials/_footer.twig' %}
+
 {% endblock %}
+
