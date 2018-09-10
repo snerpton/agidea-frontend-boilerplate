@@ -141,4 +141,4 @@ Create `package.json` and add the following content:
 
 **4. Restore packages**
 
-Run the command `npm install` to estore the packages listed in `package.json`.
+Run the command `npm install` to restore the packages listed in `package.json`.
